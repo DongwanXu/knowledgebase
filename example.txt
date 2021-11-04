@@ -1,0 +1,8 @@
+1
+~Learn(Come,Teddy)
+5
+Learn(Come,Teddy) => Ready(Teddy)
+~Ready(Teddy)
+Learn(x,y) => Ready(y)
+Learn(Come,y) => Ready(y)
+Learn(Sit,y) => A(y)
